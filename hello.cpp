@@ -1,10 +1,10 @@
 #include <iostream>
 using namespace std;
 
-int main(int argc, char const *argv[])
+int main()
 {
-    char str = 'Hello World';
-    cout << str;
+    char str[] = "Hello World!!";
+    cout << str <<endl;
     return 0;
 }
 
